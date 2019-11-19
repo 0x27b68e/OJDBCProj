@@ -1,0 +1,4 @@
+type3: 
+
+1. Các loại type1, type2, type4, type5 thì connect tới DB từ Java APP
+2. Nhưng với type3 việc connect tới DB không phải do Java App làm mà nhờ Proxy Server làm
