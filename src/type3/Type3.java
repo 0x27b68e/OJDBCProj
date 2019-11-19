@@ -29,7 +29,6 @@ public class Type3 {
 		connection.close();
 		statement.close();
 		resultSet.close();
-
 	}
 
 }
