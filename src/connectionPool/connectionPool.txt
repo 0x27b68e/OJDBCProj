@@ -1,0 +1,8 @@
+1. Thí dụ có 1000 clients connect tới Database, ta cần 1000 object connection
+2. Có connection pool, ta chỉ cần 1 object connection cho 1000 clients (connection reusable)
+
+ex: có 6000 ngàn học sinh mà ta cần 6000 giáo viên thì rất tốn resource, nên ta chỉ cần 1 giáo viên dạy 6000
+ngàn học sinh.
+
+Một ứng dụng muốn connect tới nhiều loại DB thì dụng JNDI: JAVA -> JNDI -> DATASource -> Connection Pool->
+Connection object -> DATAbase
